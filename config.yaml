@@ -18,9 +18,13 @@ dotfiles:
   f_config:
     src: config/terminator/config
     dst: ~/.config/terminator/config
+  d_fonts:
+    src: local/share/fonts
+    dst: ~/.local/share/fonts
 profiles:
   nitro5:
     dotfiles:
     - f_bashrc
     - f_settings.json
     - f_config
+    - d_fonts
