@@ -21,9 +21,6 @@ dotfiles:
   d_fonts:
     src: local/share/fonts
     dst: ~/.local/share/fonts
-  d_bash_it:
-    src: bash_it
-    dst: ~/.bash_it
   d_icons:
     src: local/share/icons
     dst: ~/.local/share/icons
@@ -34,5 +31,4 @@ profiles:
     - f_settings.json
     - f_config
     - d_fonts
-    - d_bash_it
     - d_icons
