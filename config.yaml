@@ -24,6 +24,9 @@ dotfiles:
   d_bash_it:
     src: bash_it
     dst: ~/.bash_it
+  d_icons:
+    src: local/share/icons
+    dst: ~/.local/share/icons
 profiles:
   nitro5:
     dotfiles:
@@ -32,3 +35,4 @@ profiles:
     - f_config
     - d_fonts
     - d_bash_it
+    - d_icons
