@@ -1,0 +1,26 @@
+config:
+  backup: true
+  banner: true
+  create: true
+  dotpath: dotfiles
+  keepdot: false
+  link_dotfile_default: nolink
+  link_on_import: nolink
+  longkey: false
+dotfiles:
+  f_bashrc:
+    src: bashrc
+    dst: ~/.bashrc
+  f_settings.json:
+    src: config/zed/settings.json
+    dst: ~/.config/zed/settings.json
+    chmod: '600'
+  f_config:
+    src: config/terminator/config
+    dst: ~/.config/terminator/config
+profiles:
+  nitro5:
+    dotfiles:
+    - f_bashrc
+    - f_settings.json
+    - f_config
